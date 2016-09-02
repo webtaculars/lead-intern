@@ -1,0 +1,128 @@
+
+<html>
+<head>
+	
+    <title>Internship Form</title>
+    
+    
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" name="layout" type="text/css" />
+    <link rel="stylesheet" href="css/blue.css" name="theme">
+    <link rel="stylesheet" href="css/prettyphoto.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/register_style.css">
+    <link href="css/img-fix.css" rel="stylesheet" type="text/css" />
+	
+    <link rel="stylesheet" href="css/textarea.css">
+	<style>
+	body{
+	background-image:url('1.jpg');
+	}
+	td {
+		vertical-align:top;
+		text-align:left;
+		font-size:17px;
+		color:white;
+	}
+</style>
+	
+</head>
+	<body>
+	  <div class="container">
+		   	
+		<form name="internship" id="Form" method="post" action="regform.php"  class="form-elements" enctype='multipart/form-data'>
+			<table>
+			<col width="350">
+			<tr><td><h2 style="color:#fed136">Basic Details</h2><br><hr></td><td></td></tr>
+			
+			<tr>
+		
+				<td>Name *:</td> 
+				<td><input type="text" name="name" size="30" style="border-radius:10px" maxlength="50" value="" required></td>
+			</tr>
+				
+				
+				
+			<tr>
+				<td>Gender *:</td>
+				<td>
+				Male: <input type="radio" name="gender" value="Male">
+				Female: <input type="radio" name="gender" value="Female">
+				</td>
+			</tr>	
+			<tr>
+				<td>E-Mail Id *:</td>
+				<td><input type="text" name="email" size="30" maxlength="50" style="border-radius:10px" value="" required></td>
+			</tr>		
+			<tr>
+				<td>Address *:</td>
+				<td><textarea name="address" rows="5" cols="5" style="border-radius:10px" placeholder="Type your address here" value="" required></textarea></td>
+				
+			</tr>
+				
+			<tr>	
+				<td>Contact No *:</td>
+				<td><input type="text" name="phone" size="30"  maxlength="14" style="border-radius:10px" value="" required></td>
+			</tr>
+		
+				
+			<tr>
+				<td>Linked-In Profile Link:</td>
+				<td><input type="text" name="linkedin" size="30" maxlength="200" style="border-radius:10px" value=""></td>
+			</tr>	
+				
+			<tr>
+				<td><h2 style="color:#fed136">Academic Details</h2><br><hr></td><td></td>
+			</tr>	
+				
+			<tr>
+				<td>Institute *:</td>
+				<td><input type="text" name="institute" size="30" maxlength="200" style="border-radius:10px" value=""required></td></tr>
+			<tr>
+			<td>Year :</td>
+				<td><input type="text" name="year" size="30" maxlength="4"  style="border-radius:10px" value=""/></td>
+			</tr>
+			<tr>
+				<td>Institute City :</td>
+				<td><input type="text" name="city" size="30" maxlength="100" style="border-radius:10px" value=""></td></tr>
+			
+			<tr>
+				<td>Degree :</td>
+				<td><input type="text" name="degree" size="30" maxlength="100" style="border-radius:10px" value=""></td></tr>
+			
+			<tr>
+				<td><h2 style="color:#fed136">Career Skills/Area of Interest</h2><br><hr></td>
+				<td></td>
+			</tr>
+			
+			<tr  id="more_skills">
+				<td>Skills/Area Description *:</td>
+				<td><textarea name="description" rows="5" cols="5" placeholder="Enter Details" style="border-radius:10px" value=""></textarea></td>
+				
+			</tr>
+			
+			
+				
+		</div>
+		
+			<div id="button">
+				<td colspan="2" style="text-align:left">
+				<input type="submit" value="Send" class="button small color" name="skillsub"> <input type="reset" value="Reset" class="button small color">
+				</td>
+				</div>
+				
+			</table>
+		</form>
+		
+		<br/><br/><br/>
+		</div>
+		<footer id="register_page">
+    <div class="container">
+      
+      <div  style="margin-left:360px"><span class="copyright">  <font color="white">&copy; 2014  All Rights Reserved </font><a href="www.leadintern.in"> <font color="#fed136"><strong>Lead Intern</strong></font></a></span></div>
+    </footer>
+  </div > 
+	</div>
+	</body>
+</html>
